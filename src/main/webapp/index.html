@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Zodiaco</title>
+    </head>
+    <body>
+        <header>
+            <h1>Practica 09</h1>
+            <p>Autores: Rodrigo Ocaña Martin-Vazquez </p>
+            <p>Descripción: Esto es una nueva practica de PSP basada en JAVA WEB </p>
+        </header>
+
+        <section>
+            <h2>Formulario</h2>
+            <form action="verZodiaco.jsp" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+                <button type="submit">Ver Zodiaco</button>
+            </form>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="verLista.jsp">Ver Lista</a></li>
+                <li><a href="verTabla.jsp">Ver Tabla</a></li>   
+            </ul>
+        </nav>
+
+
+    </body>
+</html>
+
